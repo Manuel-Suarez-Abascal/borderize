@@ -4,6 +4,11 @@
 
 The Borderize extension adds a red border to every HTML element on a page that does not contain a `data-id` attribute. This extension is useful for developers who want to visualize the elements on their page that lack this attribute.
 
+
+## Exclusions
+
+Please note that the `<head>`, `<body>`, and `<div>` HTML tags are excluded from this rule and will not have a border applied to them even if they lack a `data-id` attribute.
+
 ## Installation
 
 Follow these steps to install the extension in your Chrome browser:
