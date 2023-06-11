@@ -7,7 +7,7 @@ The Borderize extension adds a red border to every HTML element on a page that d
 
 ## Exclusions
 
-Please note that the `<head>`, `<body>`, and `<div>` HTML tags are excluded from this rule and will not have a border applied to them even if they lack a `data-id` attribute.
+Please note that the `<html>`, `<head>`, `<body>`, and `<div>` HTML tags are excluded from this rule and will not have a border applied to them even if they lack a `data-id` attribute.
 
 ## Installation
 
